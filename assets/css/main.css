@@ -2056,6 +2056,10 @@ ul.actions li:first-child {
 	top: 2em;
 	margin: -4em 0 4em -4em;
 	width: auto;
+	overflow: hidden;
+	height: 15rem;
+	object-fit: cover;
+
 }
 
 /* Icons */
@@ -2582,9 +2586,9 @@ body>article {
 }
 
 .box.style1 {
-	height: 25rem;
+	height: 25rem !important;
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
